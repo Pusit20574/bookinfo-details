@@ -1,0 +1,7 @@
+services:
+  details:
+    build: .
+    image: ghcr.io/pusit20574/bookinfo-details:dev
+    ports:
+      - "8080:8080"
+
